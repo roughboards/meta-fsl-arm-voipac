@@ -22,9 +22,9 @@ To get the BSP you need to have `repo` installed and use it as:
     <?xml version="1.0" encoding="UTF-8"?>
     <manifest>
     
-      <remote fetch="git://github.com/Voipac" name="voipac"/>
+      <remote fetch="git://github.com/roughboards" name="roughboards"/>
     
-      <project remote="voipac" revision="master" name="meta-fsl-arm-voipac" path="sources/meta-fsl-arm-voipac">
+      <project remote="roughboards" revision="master" name="meta-fsl-arm-voipac" path="sources/meta-fsl-arm-voipac">
         <copyfile src="voipac-setup.sh" dest="voipac-setup.sh"/>
       </project>
     </manifest>
