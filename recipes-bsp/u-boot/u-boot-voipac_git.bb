@@ -10,7 +10,7 @@ PROVIDES += "u-boot"
 PV = "v2014.10"
 
 SRCBRANCH = "master"
-SRCREV = "4dcfbf90ae4d43f1dd4f66c3886d279da219ae2e"
+SRCREV = "983db2ac11453ec8dcb1da35d0e9b15ef9ee811b"
 UBOOT_SRC ?= "git://github.com/roughboards/imx6tinyrex_uboot_v2014_10.git;protocol=git"
 SRC_URI = "${UBOOT_SRC};branch=${SRCBRANCH}"
 
